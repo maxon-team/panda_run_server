@@ -1,0 +1,23 @@
+{
+  "name": "endless-journey-server",
+  "version": "0.0.1",
+  "description": "The server for endless journey game.",
+  "private": true,
+  "main": "lib/app.js",
+  "repository": "https://coding.net/yfwz100/endless-journey-server.git",
+  "author": "yfwz100 <yfwz100@163.com>",
+  "scripts": {
+    "start": "node bin/bootstrap"
+  },
+  "dependencies": {
+    "bluebird": "~2.2",
+    "redis": "~0.10.3",
+    "express": "*",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.6.0",
+    "express-session": "*",
+    "morgan": "*",
+    "coffee-script": "*",
+    "socket.io": "~0.9"
+  }
+}
